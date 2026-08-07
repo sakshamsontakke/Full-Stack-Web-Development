@@ -1,0 +1,70 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E8F5E9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.todoContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #66BB6A;
+    overflow: hidden;
+}
+.displayTasks{
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.sectionTasks{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sectionTasks > input {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+}
+.sectionTasks  .btn{
+    text-decoration: none;
+    border: none;
+    background-color: #1B5E20;
+    color: white;
+    height: 50px;
+    width: 90%;
+    text-transform: capitalize;
+}    
+
+.sectionTasks  .btn:active{
+   scale: 0.9;
+   transition: 0.2s;
+}
+
+.task-list-css{
+    width:90%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:5px  ;
+}
