@@ -6,7 +6,7 @@
     4. use typeof() to get datatype 
     5. to insert values direclty into the string we use 
         syntax--->  ${ value... }
-    6. creating a string using `Backticks`  (``) 
+    6. creating a string using `Backticks`  (``) [ this is called template string]
         --->Backticks (`) are punctuation marks used in computer programming and text 
         formatting to designate code blocks, template strings, and shell commands
 */
@@ -24,3 +24,7 @@ console.log("this is the first line \nthis is the second line");
 
 console.log(`the price of this product is ${20+50} $`);
 
+// slicing of a string
+let str = "GAME";
+console.log(str[0]);  // --> G
+console.log(str[1]);  // -->A
