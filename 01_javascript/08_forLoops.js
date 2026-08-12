@@ -6,7 +6,12 @@
     3. for of loop --> loops through the values of an object
     4. while loop --> when we don't know anything about the condition
     5. do-while loop --> iterate atleast one time  
-*/
+
+    # NOTE:  for of loop gives the key values of object or arrays whereas for of loop gives the index
+             eg . array = [11 , 22 , 33 , 44 , 55]
+                  for of loop --> 11 , 22 , 33 , 44 , 55
+                  for in loop --> 0 ,  1  , 2  , 3  , 4
+*/          
 
 // for loop : calculation the first nth sum of number using for loop
 let num1 = 10;
