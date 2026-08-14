@@ -5,7 +5,7 @@
                              eg.  arr.join(" and ") ->   1 and 2 and 3 and 4
     3. arr.pop()         --> deletes the last element from the actual Array (no need to create another array )  
                              and it return the poped element 
-    4. arr.push()        --> it pushes a new element as the last index and returns the new length of the Array
+    4. arr.push()        --> it pushes a new element at the last index and returns the new length of the Array
                              also it adds a new element the the actual array (no need to create another array)
     5. arr.shift()       --> it removes the first element from the array and returns the deleted element
     6. arr.unshift()     --> it adds a new element at the begining of the Array and returns
